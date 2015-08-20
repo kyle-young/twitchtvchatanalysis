@@ -11,7 +11,7 @@ conn = sqlite3.connect(game_db)
 print("Opened db successfully")
 c = conn.cursor()
 
-c.execute('''CREATE TABLE logs (datetime TEXT, message TEXT)''')
+c.execute('''CREATE TABLE logs (datetime TEXT, user TEXT, message TEXT)''')
 print("Table created successfully")
 
 conn.commit()
