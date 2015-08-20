@@ -8,5 +8,5 @@ To use (after you get all the require credentials):
 3. Get all of the IRC connection info  
     -For oauth key: www.twitchapps.com/tmi/  
     -For IRC connection info: https://api.twitch.tv/api/channels/CHANNEL_NAME/chat_properties  
-4. When you want go get twitch.tv chat type in "python3 twitchingest.py"  
+4. When you want go get twitch.tv chat type in "python3 twitchingest.py", ctrl+c to stop
 5. To graph, type in "python3 graph.py"  
