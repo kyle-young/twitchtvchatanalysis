@@ -6,9 +6,9 @@ import datetime
 import sqlite3
 
 # Settings
-HOST = ""            # Hostname of the IRC-Server in this case twitch's
-PORT = 0              # Default IRC-Port
-CHAN = ""        # Channelname = #{Nickname}
+HOST = ""            # Hostname of the IRC-Server, from https://api.twitch.tv/api/channels/{{channel_name}}/chat_properties
+PORT = 443              # IRC-Port
+CHAN = "#"        # Channelname = #{Nickname}, remember # sign
 NICK = ""            # Nickname = Twitch username
 PASS = "oauth:" # www.twitchapps.com/tmi/ will help to retrieve the required authkey
 
